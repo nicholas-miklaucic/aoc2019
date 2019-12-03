@@ -14,3 +14,13 @@ Simple math: not too bad.
 Pretty simple: you have to be a little careful in Rust, because you can't change the code as you
 loop over it due to the borrow checker, but that can easily be remedied. Rust's functional approach
 to handling iterators is a godsend for quick input parsing.
+
+### Day 3
+A bit more complex, just because in Rust ignoring safety requires a lot of explicitly telling the
+compiler that you are really fine if this code panics. On the other hand, the functional stuff is
+really nice for programming in this style, and although it's a bit overkill Rust has nice ways of
+encoding data representations compared to, say, JS or Python. Still very much just "implement the
+basic steps you would use to solve the problem by hand". 
+
+I wonder if using two lists is actually inefficient enough to be an issue: I doubt it, but that
+might be a slightly nontrivial choice on my part.
