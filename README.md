@@ -24,3 +24,8 @@ basic steps you would use to solve the problem by hand".
 
 I wonder if using two lists is actually inefficient enough to be an issue: I doubt it, but that
 might be a slightly nontrivial choice on my part.
+
+### Day 4
+Slightly harder! Doing the second part clearly took me a couple minutes, but still pretty much just
+implementing exactly what the problem tells us to do. Luckily, no file I/O, so this probably took me
+less time than day 3.
