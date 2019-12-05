@@ -29,3 +29,11 @@ might be a slightly nontrivial choice on my part.
 Slightly harder! Doing the second part clearly took me a couple minutes, but still pretty much just
 implementing exactly what the problem tells us to do. Luckily, no file I/O, so this probably took me
 less time than day 3.
+
+### Day 5
+This one took me way too long, but on the plus side I refactored the Intcode interpreter into
+something that I can more easily modify in the future. It's now something approaching good style,
+and so hopefully there will be future Intcode problems.
+
+This is the first solution that requires you to do something to get the outputs: it queries from
+standard input, so to solve the first problem input `1` and to solve the second problem input `5`.
