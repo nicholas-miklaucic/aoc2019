@@ -37,3 +37,8 @@ and so hopefully there will be future Intcode problems.
 
 This is the first solution that requires you to do something to get the outputs: it queries from
 standard input, so to solve the first problem input `1` and to solve the second problem input `5`.
+
+### Day 6
+I debated whether to start using outside libraries and just use a graph library like `petgraph`, but
+I decided to just stick with the Rust standard library. Nothing too crazy: definitely not efficient
+with ownership or just efficient in general, but I didn't need to be.
